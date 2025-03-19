@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="poo.css">
+   
+    <title>POO</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="site.html" style="text-decoration: none;"><h1>INFORMÁTICA</h1></a>
+        </div>
+
+            <ul>
+                <a href="#"><li class="topo">Sobre nós</li></a>
+                <a href="#"><li class="topo">Contato</li></a>
+                <a href="login.html" id="butt"><li class="topo">Crie uma conta</li></a>
+            </ul>
+    </header>
+    <main>
+
+        <aside id="imagem_poo">    
+            <img src="imagens/web 1.png" alt="" >
+        </aside>
+
+        <div class="conteudo">
+        <h1 class="titulo">PROGRAMAÇÃO ORIENTADA A OBJETOS</h1>
+            <h2>O que é?</h2>
+            <p style="text-align: justify;">
+                A POO é um caminho para o desenvolvimento de software que se destaca pela organização e reutilização do código. Ela permite dividir programas complexos em unidades chamadas objetos, o que facilita a construção de sistemas modulares e flexíveis.            </p>
+            <hr>
+        </div>
+    </main>
+<section>
+    <div class="conteudo2">
+        <h2>JAVA</h2>
+        <p style="text-align: justify;">
+            Java é uma linguagem de programação e plataforma de computação que permite criar aplicações para vários dispositivos e sistemas operacionais: Celulares, Computadores, Dispositivos da Internet das Coisas (IoT), Smart TVs        </p>
+        <hr>
+    </div>
+
+    <aside>
+        <img src="imagens/codigo.png" >
+    </aside>
+</section>
+<section>
+    <div class="conteudo">
+        <h2>ENCAPSULAMENTO</h2>
+        <p style="text-align: justify;">
+            consiste em ocultar os detalhes internos de um objeto, protegendo os seus dados e métodos.
+        </p>
+        <hr>
+    </div>
+    <div class="conteudo">
+        <h2>POLIMORFISMO</h2>
+        <p style="text-align: justify;">
+            o polimorfismo é a capacidade de um objeto se comportar de maneiras diferentes, dependendo do contexto em que é utilizado.
+        </p>
+        <hr>
+    </div>
+</section>
+
+<section>
+    <div class="conteudo">
+        <h2>HERANÇA </h2>
+        <p style="text-align: justify;">
+            A Herança possibilita que as classes compartilhem seus atributos, métodos e outros membros da classe entre si. Para a ligação entre as classes, a herança adota um relacionamento esquematizado hierarquicamente.
+        </p>
+        <hr>
+    </div>
+    <div class="conteudo">
+        <h2>ABSTRAÇÃO</h2>
+        <p style="text-align: justify;">
+            A abstração é um princípio fundamental da Programação Orientada a Objetos (POO) que consiste em ocultar detalhes irrelevantes de um problema e focar nos aspectos essenciais.
+        </p>
+        <hr>
+    </div>
+</section>
+    
+<section class="secao_form">
+    <div class="form_inscricao"> 
+        <h2 class="titulo_form">Formulário de inscrição</h2>
+        <form name="form_inscricao" action="" onsubmit="return inscricao('POO')" >
+            <b><p class="paragrafo_form">Email</p></b>
+                <input type="email" name="email" id="email" placeholder="seuemail@gmail.com" oninput="emailValidate"><br><span id="erroemail"></span>
+            <b><p class="paragrafo_form">Senha</p></b>
+                <input type="password" name="senha" id="senha" placeholder="Sua senha"><br><span id="errosenha"></span>
+            <b><p class="paragrafo_form">Modalidade</p></b>
+            <select name="" id="modalidade">
+                <option value="Presencial">Presencial</option>
+                <option value="EAD">Longa distância (EAD)</option>
+            </select>
+            <br>
+            <input type="button" value="ENVIAR" class="botao_form" onclick="inscricao('POO')">
+        </form>
+    </div>
+
+
+
+</section>
+
+<footer>
+    <h1 class="titulo_footer">
+        Instituto Atlântico Avanti
+    </h1>
+    <hr class="linha_footer">
+        <p class="texto_footer">
+            Nós somos alunos do curso de FullStack do Instituto Atlântico.
+        </p>
+    <!-- REDES SOCIAIS -->     
+    <ul class="redes-sociais">
+        <li ><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
+        <li ><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></li>
+        <li ><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></li>
+    </ul>
+  
+</footer>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="web.css">
+
+    <title>Programação Web</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="site (1).html" id="logo" style="text-decoration: none;"><h1>INFORMÁTICA</h1></a>
+        </div>
+
+            <ul>
+                <a href="#"><li class="topo">Sobre nós</li></a>
+                <a href="#"><li class="topo">Contato</li></a>
+                <a href="login.html" id="butt"><li class="topo">Já tem uma conta?</li></a>
+            </ul>
+    </header>
+    <main>
+        <div id="cont">
+            <div class="conteudo">
+            <h1 class="titulo">PROGRAMAÇÃO WEB</h1>
+                <h2>O que é?</h2>
+                <p>
+                    Um programador de desenvolvimento web é um profissional responsável por criar e manter sites e aplicativos para a web. Ele utiliza linguagens de programação como HTML, CSS, JavaScript e outras para desenvolver interfaces e funcionalidades que atendam às necessidades dos usuários e empresas, garantindo um design atrativo, desempenho eficiente e experiência de uso de qualidade.
+                </p>
+                <hr>
+            </div id="div-img1">
+            <img src="/imagens/programaweb.png" alt="" id="img1">
+        </div>   
+    <aside>    
+        
+</aside>
+    </main>
+<section>
+    
+    <div class="conteudo2">
+        <h2>HTML & CSS</h2>
+        <p>
+            HTML e CSS são como montar uma festa incrível! 
+            O HTML é o esqueleto da festa – ele organiza as coisas: coloca as mesas, as cadeiras, os balões e define onde tudo vai ficar. Sem ele, a festa não existe!
+            Já o CSS é o estilista da festa – ele escolhe as cores dos balões, o tipo de música, o brilho das luzes e até o tema (unicórnios, piratas, ou elegância total!). Sem CSS, sua festa seria só funcional, mas sem graça.
+            Juntos, HTML e CSS transformam qualquer site em uma super comemoração visual e organizada! 
+        </p>
+        <hr>
+    </div>
+    <div id="fotos_css_html">
+        <img src="/imagens/html_css1.png" alt="" id="html_css">
+    </div>
+</section>
+<section>
+    <div class="conteudo">
+        <h2>JAVASCRIPT</h2>
+        <p>
+            JavaScript é o animador da festa! 
+            Enquanto o HTML organiza o espaço e o CSS deixa tudo bonito, o JavaScript traz a diversão. Ele faz os balões voarem, as luzes piscarem, a música tocar e até os convidados dançarem sozinhos! 
+            É o JavaScript que transforma a festa em algo interativo e dinâmico, deixando tudo mais vivo e emocionante. Sem ele, seria só uma festa estática e sem movimento. 
+        </p>
+        <hr>
+    </div>
+    <div id="fotos_js">
+        <img src="imagens/html_cod1.png" alt="" id="img_js">
+    </div>
+</section>
+    
+<section class="secao_form">
+    <div class="form_inscricao"> 
+        <h2 class="titulo_form">Formulário de inscrição</h2>
+        <form name="form_inscricao" action="" onsubmit="return inscricao('WEB')" >
+            <b><p class="paragrafo_form">Email</p></b>
+                <input type="email" name="email" id="email" placeholder="seuemail@gmail.com" oninput="emailValidate"><br><span id="erroemail"></span>
+            <b><p class="paragrafo_form">Senha</p></b>
+                <input type="password" name="senha" id="senha" placeholder="Sua senha"><br><span id="errosenha"></span>
+            <b><p class="paragrafo_form">Modalidade</p></b>
+            <select name="" id="modalidade">
+                <option value="Presencial">Presencial</option>
+                <option value="EAD">Longa distância (EAD)</option>
+            </select>
+            <br>
+            <input type="button" value="ENVIAR" class="botao_form" onclick="inscricao('WEB')">
+        </form>
+    </div>
+
+
+
+</section>
+
+<footer>
+<h1 class="titulo_footer">
+    Instituto Atlântico Avanti
+</h1>
+<hr class="linha_footer">
+    <p class="texto_footer">
+        Nós somos alunos do curso de FullStack do Instituto Atlântico.
+    </p>
+    <!-- REDES SOCIAIS -->     
+    <ul class="redes-sociais">
+        <li ><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
+        <li ><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></li>
+        <li ><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></li>
+    </ul>
+  
+</footer>
+
+</body>
+</html>
