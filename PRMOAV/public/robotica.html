@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="robotica.css">
+
+        <title>robotica</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="site.html" id="logo" style="text-decoration: none;"><h1>INFORMÁTICA</h1></a>
+        </div>
+
+            <ul>
+                <a href="#"><li class="topo">Sobre nós</li></a>
+                <a href="#"><li class="topo">Contato</li></a>
+                <a href="login.html" id="butt"><li class="topo">CRIE UMA CONTA</li></a>
+            </ul>
+    </header>
+    <main>
+        <div class="conteudo">
+        <h1 class="titulo">ROBÓTICA</h1>
+            <p>
+                A robótica é uma área de estudo e desenvolvimento que combina conhecimentos de diversas disciplinas, como a engenharia mecânica, a eletrônica e a computação, para criar robôs. Robôs são máquinas programáveis que podem realizar tarefas de forma autônoma ou semiautônoma, e podem ser controlados remotamente por humanos.             </p>
+            <hr>
+        </div>
+    <aside>    
+        <img src="https://www.makerhero.com/wp-content/uploads/2017/07/1AC01-9-1-min-300x300.jpeg" alt="">
+</aside>
+    </main>
+<section>
+    
+    <div class="conteudo2">
+        <h2>ARDUINO</h2>
+        <p>
+            O Arduino é uma plataforma de prototipagem eletrônica que permite desenvolver projetos tecnológicos. Ele é constituído por hardware e software, e é considerado open-source, o que significa que a propriedade intelectual é compartilhada entre os usuários: <br>
+            Hardware: A placa do Arduino, que possui um microcontrolador, um tipo de processador menor do que o convencional 
+            Software: A IDE Arduino, que é o ambiente de desenvolvimento dos projetos.</p>
+        <hr>
+    </div>
+    
+    <aside>    
+        <img src="imagens/codigo2.png" alt="">
+    </aside>
+</section>
+<section class="projetos_section">
+    <div class="div_imagem_grande">
+        <!---->
+        <img src="imagens/basquete.png" alt="" id="imagem_grande">
+    </div>
+    <div class="div_imagem_desc">
+        <div class="descricao">
+            <h2>Projetos</h2>
+            <p>
+                    Pequenos projetos desenvolvidos em aulas práticas do curso para você testa seus connhecimentos </p>
+                <hr>
+        </div>
+        <img src="imagens/robozin.png" alt="" id="imagem_pequena">
+    </div>
+        
+</section>
+<!--<div class="imagens_robotica">
+    <img src="imagens/basquete.png" alt="">
+    <img src="imagens/robozin.png" alt="">
+</div>-->
+
+<section class="secao_form">
+    <div class="form_inscricao"> 
+        <h2 class="titulo_form">Formulário de inscrição</h2>
+        <form name="form_inscricao" action="" onsubmit="return inscricao('ROBOTICA')" >
+            <b><p class="paragrafo_form">Email</p></b>
+                <input type="email" name="email" id="email" placeholder="seuemail@gmail.com" oninput="emailValidate"><br><span id="erroemail"></span>
+            <b><p class="paragrafo_form">Senha</p></b>
+                <input type="password" name="senha" id="senha" placeholder="Sua senha"><br><span id="errosenha"></span>
+            <b><p class="paragrafo_form">Modalidade</p></b>
+            <select name="" id="modalidade">
+                <option value="Presencial">Presencial</option>
+                <option value="EAD">Longa distância (EAD)</option>
+            </select>
+            <br>
+            <input type="button" value="ENVIAR" class="botao_form" onclick="inscricao('ROBOTICA')">
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <h1 class="titulo_footer">
+        Instituto Atlântico Avanti
+    </h1>
+    <hr class="linha_footer">
+        <p class="texto_footer">
+            Nós somos alunos do curso de FullStack do Instituto Atlântico.
+        </p>
+    <!-- REDES SOCIAIS -->     
+    <ul class="redes-sociais">
+        <li ><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
+        <li ><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></li>
+        <li ><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></li>
+    </ul>
+  
+</footer>
+</body>
+</html>

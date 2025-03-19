@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    color: #0810A6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+#logo{
+    font-size: 11px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    margin-right: 50px;
+}
+
+li{
+    font-size: 19px;
+    display: inline-block;
+    margin: 20px;
+
+}
+#list{
+    height: 30px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*ESPAÇO ENTRE ELES*/
+    align-items: center;
+}
+a{
+    color: rgb(8, 16, 166);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+a:hover{
+    color: #0C59AD;
+    transition: 0.3s all;
+}
+#butt{
+    background-color: #0810A6;
+    color: white;
+    padding: 17px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+#butt:hover{
+    background-color: #0C59AD;
+}
+
+
+#detalhe1{
+    height: 0px;
+    position: relative;
+    bottom: 150px;
+    z-index: -1;
+    
+}
+
+#foto_detalhe1{
+    width: 300px;
+    height: 300px;
+    
+}
+
+#conteudo_principal{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+#titulos{
+    width: 50%;
+    height: 200px;
+
+}
+
+#titulos{
+    margin-left: 150px;
+}
+
+#conteudo{
+    margin-left: 260px;
+}
+
+#titulo_design{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 80px;
+}
+
+#subtitulo{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 70px;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+#linha_design{
+    background-color: #C6C7C9;
+    height: 5px;
+    width: 95%;
+    margin-left: 50px ;
+    margin-top: -50px;
+    border: none;
+}
+
+#conteudo{
+    width: 40%;
+}
+
+#conteudo_sobre_design{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+    font-weight: 500;
+    
+    text-align: justify;
+}
+
+#imagem_referencia{
+    width: 25%;
+    position: relative;
+    left: 1000px;
+    bottom: 470px;
+}
+
+
+#designer{
+    width: 540px;
+    height: 560px;
+}
+
+#titulos2{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#figminha{
+    width: 100%;
+}
+
+#figma{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 80px;
+    margin-left: -450px;
+}
+
+#conteudo1{
+    width: 40%;
+    margin-left: 260px;
+}
+
+#conteudo_sobre_figma{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 40px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#botao{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 29.5%;
+    margin-top: 30px;
+}
+
+#botao_para_figma{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #0810A6;
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+    border: solid #0810A6 1px;
+}
+
+#imagem_referencia2{
+    width: 25%;
+    position: relative;
+    left: 1070px;
+    bottom: 300px;
+}
+
+#figmer{
+    width: 300px;
+    height: 300px;
+    color: white;
+    border: none;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+#detalhe2{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    left: 1500px;
+    bottom: 800px;
+    z-index: -1;
+    
+}
+
+#foto_detalhe2{
+    width: 400px;
+    height: 500px;
+    
+}
+
+#detalhe2{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    left: 1183px;
+    bottom: 800px;
+    z-index: -1;
+    
+}
+
+#foto_detalhe2{
+    width: 400px;
+    height: 500px;
+    
+}
+
+#secao_figma{
+    margin-top: 60px;
+    height: 600px;
+}
+
+#titulos3{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 630px;
+}
+
+#painel_video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#video{
+    background-color: #000677;
+    width: 95%;
+    height: 650px;
+    padding-top: 2%;
+}
+#detalhe3{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    bottom: 600px;
+    z-index: -1;
+    
+}
+
+#foto_detalhe3{
+    width: 300px;
+    height: 500px;
+    
+}
+
+.secao_form{
+    display: flex;
+    justify-content: center;
+}
+
+.form_inscricao{
+    background-color: #0810A6;
+    height: 500px;
+    width: 35%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.titulo_form{
+    color: #ffff;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+footer{
+    margin-top: 160px;
+    width: 100%;
+    height: 200px;
+    background-color: #0810A6;
+
+}
+
+.titulo_footer{
+    color: #ffff;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.linha_footer{
+    width: 50%;
+    background-color: aliceblue;
+    height: 0.2px;
+}
+
+.texto_footer{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 300;
+}
+
+.redes-sociais{
+text-align: center;
+}
+
+.secao_form{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.form_inscricao{
+    background-color: #0810A6;
+    height: 500px;
+    width: 35%;
+  border-radius: 15px;
+}
+
+.titulo_form{
+    color: #ffff;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.paragrafo_form{
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#email{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#senha{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+#modalidade{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.botao_form{
+    width: 120px;
+    height: 35px;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: "Lexend Deca", sans-serif;
+    transition: 0.7s;   
+}
+
+.botao_form:hover{
+    background-color: #000677;
+    color: white;
+}
+
+
+
+footer{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background-color: #0810A6;
+
+}
+
+.titulo_footer{
+    color: #ffff;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.linha_footer{
+    width: 50%;
+    background-color: aliceblue;
+    height: 0.2px;
+}
+
+.texto_footer{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 300;
+}
+
+.redes-sociais{
+text-align: center;
+}

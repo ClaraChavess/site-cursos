@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="banco.css">
+   
+    <title>banco de dados</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="site.html" id="logo" style="text-decoration: none;"><h1>INFORMÁTICA</h1></a>
+        </div>
+
+            <ul>
+                <a href="#"><li class="topo">Sobre nós</li></a>
+                <a href="#"><li class="topo">Contato</li></a>
+                <a href="login.html" id="butt"><li class="topo">CRIE UMA CONTA</li></a>
+            </ul>
+    </header>
+    <main>
+        <div class="conteudo">
+        <h1 class="titulo">BANCO DE DADOS</h1>
+            <h2>O que é?</h2>
+            <p>
+                Um banco de dados é uma coleção organizada de informações - ou dados - estruturadas, normalmente armazenadas eletronicamente em um sistema de computador. Um banco de dados é geralmente controlado por um sistema de gerenciamento de banco de dados (DBMS). Juntos, os dados e o DBMS, juntamente com os aplicativos associados a eles, são chamados de sistema de banco de dados, geralmente abreviados para apenas banco de dados.            </p>
+            <hr>
+        </div>
+    <aside>    
+        <img src="imagens/banco_1.png" id="bebe">
+</aside>
+    </main>
+<section>
+    <aside id="ixquerda">
+        <img src="imagens/banco_2.png" alt="">
+    </aside>
+    <div class="conteudo2">
+        <h2>FUNDAMENTOS DE BANCO DE DADOS</h2>
+        <ul class="lista_dados">
+<li>Armazenamento de dados: Um banco de dados é uma coleção de dados estruturados e organizados que podem ser armazenados eletronicamente. </li>
+<li>Sistema de gerenciamento de banco de dados (SGBD): O SGBD é um software que facilita a administração, manipulação e manutenção do banco de dados. </li>
+<li>Linguagem de consulta estruturada (SQL): A maioria dos bancos de dados usa a SQL para escrever e consultar dados. </li>
+        </ul>
+        <hr>
+    </div>
+</section>
+<section>
+    <div class="conteudo">
+        <h2>MySQL</h2>
+        <p>
+            MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto. Ele é usado para armazenar dados em tabelas separadas, que são organizadas em arquivos físicos otimizados para velocidade. 
+O MySQL é um dos bancos de dados mais populares do mundo, sendo usado em sites de comércio eletrônico, mídias sociais e aplicativos. 
+        </p>
+        <hr>
+    </div>
+    <aside>
+        <img src="imagens/banco_3.png" alt="">
+    </aside>
+</section>
+    
+<section class="secao_form">
+    <div class="form_inscricao"> 
+        <h2 class="titulo_form">Formulário de inscrição</h2>
+        <form name="form_inscricao" action="" onsubmit="return inscricao('BANCO')" >
+            <b><p class="paragrafo_form">Email</p></b>
+                <input type="email" name="email" id="email" placeholder="seuemail@gmail.com" oninput="emailValidate"><br><span id="erroemail"></span>
+            <b><p class="paragrafo_form">Senha</p></b>
+                <input type="password" name="senha" id="senha" placeholder="Sua senha"><br><span id="errosenha"></span>
+            <b><p class="paragrafo_form">Modalidade</p></b>
+            <select name="" id="modalidade">
+                <option value="Presencial">Presencial</option>
+                <option value="EAD">Longa distância (EAD)</option>
+            </select>
+            <br>
+            <input type="button" value="ENVIAR" class="botao_form" onclick="inscricao('BANCO')">
+        </form>
+    </div>
+
+
+
+</section>
+
+<footer>
+    <h1 class="titulo_footer">
+        Instituto Atlântico Avanti
+    </h1>
+    <hr class="linha_footer">
+        <p class="texto_footer">
+            Nós somos alunos do curso de FullStack do Instituto Atlântico.
+        </p>
+    <!-- REDES SOCIAIS -->     
+    <ul class="redes-sociais">
+        <li ><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></li>
+        <li ><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></li>
+        <li ><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></li>
+    </ul>
+  
+</footer>
+
+</body>
+</html>

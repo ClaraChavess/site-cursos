@@ -1,0 +1,301 @@
+html {
+    
+    scroll-behavior: smooth;
+}
+
+textarea {
+    resize: none;
+}
+body{
+    color: #0810A6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+h1{
+    font-size: 21px;
+    margin-left: 50px;
+}
+
+ul{
+    margin-right: 50px;
+}
+
+li{
+    font-size: 19px;
+    display: inline-block;
+    margin: 20px;
+
+}
+#list{
+    height: 30px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*ESPAÇO ENTRE ELES*/
+    align-items: center;
+}
+a{
+    color: rgb(8, 16, 166);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+a:hover{
+    color: #0C59AD;
+    transition: 0.3s all;
+}
+#butt{
+    background-color: #0810A6;
+    color: white;
+    padding: 17px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+#butt:hover{
+    background-color: #0C59AD;
+}
+main{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+aside{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+button{
+    color: white;
+    background-color: #0810A6;
+    margin-left: 120px;
+    font-size: 12px;
+    padding: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+button:hover{
+    background-color: #0C59AD;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.redes{
+    margin-left: 30px;
+    height: 40px;
+}
+
+.redes:hover{
+    cursor: pointer;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#curso{
+    margin-left: 120px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#menina{
+    width: 700px;
+}
+
+section{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos{
+    background-color: #0810A6;
+    width:19%;
+    height: 60vh;
+    border-radius: 10px;
+    margin-inline: 50px;
+    box-shadow: 5px 0px 5px 0px gray;
+}
+
+.imagem_cursos{
+    height: 180px;
+    width: 270px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.titulo_cursos{
+    color: aliceblue;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.descricao_cursos{
+    color: aliceblue;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+h5{
+    color: aliceblue;
+    margin-left: 180px;
+}
+
+i{margin-left: 5px;}
+
+footer{
+    margin-top: 160px;
+    width: 100%;
+    height: 100px;
+    background-color: #0810A6;
+}
+
+p{
+    color: aliceblue;
+}
+
+.form_inscricao{
+    background-color: #0810A6;
+    height: 1050px;
+    width: 32%;
+    border-radius: 16px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.titulo_form{
+    color:#ffff;
+    margin-left:130px;
+    font-size: 30px;
+}
+
+.titulo{
+    color: #0810A6;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.titulo-2{
+    color: #0810A6;
+    margin-top: 30px;
+    text-align:center;
+}
+
+.imagem_form{
+    margin-top: 105px;
+    width: 100%;
+    height: 55vh;
+}
+
+input,select{
+    width: 80%;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+input {
+    text-indent: 5px;
+}
+
+
+.paragrafo_form{
+    margin-left: 50px;
+}
+
+.data_nasc{
+    height: 25px;
+    width: 90%;
+}
+
+.formularios{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100px;
+    margin: 0;
+
+}
+
+.dta-nasc,.genero{
+    width: 50%;
+}
+
+.uf,.bairro{
+    width: 50%;
+}
+
+.input-bairro{
+    width: 90%;
+}
+
+.botao_form{
+    margin-top: 20px;
+    width: 50%;
+    height: 35px;
+    margin-left: 120px;
+}
+
+.botao_form:hover{
+    cursor: pointer;
+    background-color: #0C59AD;
+    transition: 0.3s;
+    color: #ffff;
+}
+
+.foto_form{
+    margin: 80px;
+    margin-right: 100px;
+    
+}
+
+footer{
+    margin-top: 160px;
+    width: 100%;
+    height: 200px;
+    background-color: #0810A6;
+
+}
+
+.titulo_footer{
+    color: #ffff;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+.linha_footer{
+    width: 50%;
+    background-color: aliceblue;
+    height: 0.2px;
+}
+
+.texto_footer{
+    color: aliceblue;
+    text-align: center;
+    font-weight: 300;
+}
+
+.redes-sociais{
+text-align: center;
+}
